@@ -64,7 +64,13 @@
 
       .btn {
         .styleButton(@porcelain, @btn-bg-color);
-      }
+
+        &:hover{
+          background-color: @border-real; //used @border-real instead
+          color: @btn-bg-color;           //of @porcelain for contrast
+          font-weight: bold;              //and viewability
+        }
+      }//.btn
     }
 
     .walk-img {
