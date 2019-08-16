@@ -197,6 +197,10 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .earth {
+  width: 100%;
+  margin: 10px auto;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
