@@ -167,6 +167,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #dee2e6;
+  padding-bottom: 1rem;
 }
 .navSection div {
   margin: 2rem auto;
@@ -180,6 +182,10 @@ p {
 .navSection nav a {
   text-decoration: none;
 }
+.navSection nav a:hover {
+  color: #22283A;
+  font-weight: bold;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -189,6 +195,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  margin-top: 0px;
 }
 .home .intro h2 {
   padding: 15px;
