@@ -37,6 +37,7 @@
       }
       .blast {
         width: 90%;
+        margin: 15px;
       }
     }//@media
   }//.space-images
@@ -79,8 +80,13 @@
           color: @btn-bg-color;           //of @porcelain for contrast
           font-weight: bold;              //and viewability
         }
+
+        @media @phone {
+          width: 100%;
+          height: 50px;
+        }//@media
       }//.btn
-    }
+    }//.walk-text
 
     .walk-img {
       width: 46%;
@@ -91,6 +97,19 @@
         height: auto;
         border-radius: 10px;
       }
-    }
-  }
+    }//.walk-img
+
+    @media @phone {
+      flex-direction: column-reverse;
+      padding: 50px 0px;
+
+      .walk-text, .walk-img {
+        width: 90%;
+      }
+
+      .walk-text {
+        padding: 15px;
+      }
+    }//@media
+  }//.walk
 }// home
